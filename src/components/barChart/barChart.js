@@ -1,6 +1,5 @@
 import React from 'react';
 import { Line } from 'react-chartjs-2';
-
 import './barChart.css';
 
 
@@ -63,11 +62,9 @@ const BarChart = () => {
                     plugins: {
                         legend: {
                             labels: {
-                                // This more specific font property overrides the global property
                                 font: {
                                     size: 20
                                 },
-                                // color: 'white'
                             }
                         }
                     },
